@@ -3,7 +3,11 @@
 #猜對的話印出 “終於猜對了”
 #猜錯要告訴他比答案大獲小
 import random
-r = random.randint(1, 100) # random int 
+star = input ('數入起始值')
+end = input('輸入結束值')
+star = int(star)
+end = int(end)
+r = random.randint(star, end) # random int 
 count = 0
 while True :
 	count= count + 1 #count += 1
